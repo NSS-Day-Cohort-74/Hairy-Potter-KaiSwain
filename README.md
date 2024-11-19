@@ -120,12 +120,17 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. Explain how you got the HTML, with the correct data, displayed in the browser?
-   > Your answer here
+   > I made a function that returns an HTML string for each pottery object thats in the toSellArray. I then target the article element's inner HTML using the document.querySelector() function and set it to be an HTML string.
+
 2. In the **PotteryList** module, when you iterate your pottery, you need to show the evidence of what the **weight** property's value is for the 2nd piece of pottery. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > [Paste your video's public URL here](https://www.loom.com/share/8772a8e471ad49af84e5e5f3285d37e9?sid=46f2fbf8-668e-432d-bd6b-83c234c3aaf4)
+
 3. The **PotteryWheel** module has a single function named `makePottery`. Why doesn't that module have all of the other code in it?
-   > Your answer here
+   > seperating your code into seperate modules make it easier to read, organize and debugg!
+
 4. The pottery shop has learned that there is a set of customers that are willing to buy cracked pottery at a discounted price of $2.50. That means that the cracked pottery should now be displayed in the catalog. Explain the changes that this new business strategy would cause to your algorithm.
-   > Your answer here
+   > Changing my code if that was the case would be easy! In the potteryCatalog.js module, in the toSellOrNot function I would add an else statement that would accept all left over objects that would imply its cracked and i would add a price property with a value of 2.50 then add it to the toSellArray array!
+
 5. In the **Kiln** module, you have a `firePottery()` function. You need to demonstrate how to use the debugger to verify the values of the parameters for that function when your code runs. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > [Paste your video's public URL here](https://www.loom.com/share/4f4f657b3a5b4f2eae020fa21aff7f98?sid=9849d305-8bb6-459b-908f-dd0936204f5f)
+
